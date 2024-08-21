@@ -1,0 +1,237 @@
+.recipe-title h2 {
+  text-align: center;
+  background-image: linear-gradient(45deg, #dde7fc, #ebe8ee, #dde7fc);
+  width: 15%;
+  height: 50px;
+  border-radius: 10px;
+}
+.recipe-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.short-description {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 110px;
+}
+.info {
+  display: flex;
+  margin-top: 40px;
+}
+.recipe-img {
+  width: 100%;
+  height: 450px;
+  margin-left: 70px;
+  border-radius: 7px;
+}
+.details {
+  margin-left: 130px;
+  margin-top: 17px;
+  font-size: 20px;
+  text-transform: capitalize;
+  word-spacing: 2px;
+  line-height: 45px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 45%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.detailed-info {
+  display: flex;
+  margin-top: 40px;
+}
+.information {
+  margin-left: 350px;
+}
+.info-link {
+  margin-right: 50px;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+.info-link::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #ff004f;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  transition: 0.6s;
+}
+
+.info-link.active-link::after {
+  width: 100%;
+}
+
+.info-content {
+  display: none;
+}
+.info-content.active-info {
+  display: flex;
+}
+.ingredient-list {
+  line-height: 30px;
+  margin-top: 10px;
+}
+.instruction-list {
+  line-height: 30px;
+  margin-top: 10px;
+  margin-right: 200px;
+}
+iframe {
+  height: 450px;
+  width: 100%;
+}
+
+.recipe-video {
+  width: 65%;
+  margin: 3rem auto;
+}
+
+.cook-servings {
+  display: flex;
+  align-items: center;
+}
+
+.detail-icon {
+  margin-right: 5px;
+  margin-left: 40px;
+}
+
+.cook-servings p {
+  margin: 0;
+  margin-left: 7px;
+}
+
+.detail-icon {
+  display: flex;
+}
+
+.foodorder{
+  background-color: rgb(57, 186, 10);
+  margin-top: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 55%;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  margin-left: 80px;
+}
+
+.foodorder:hover{
+  background-color: rgb(249, 37, 37);
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .recipe-title h2 {
+    width: 90%;
+    height: 50px;
+    padding: 10px;
+  }
+
+  .recipe-title {
+    margin-top: 10px;
+  }
+
+  .short-description {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .recipe-img {
+    margin-left: 5px;
+    border-radius: 15px;
+    width: 97%;
+    height: auto;
+  }
+
+  .details {
+    margin-left: 0;
+    font-size: 18px;
+    line-height: 38px;
+  }
+
+  table {
+    margin-left: 10px;
+    width: 95%;
+  }
+
+  .detailed-info {
+    margin-top: 20px;
+    margin-left: 12px;
+    gap: 1.3em;
+  }
+
+  .information {
+    margin-left: 0;
+  }
+
+  .info-link {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .info-content.active-info {
+    flex-direction: column;
+  }
+
+  .instruction-list {
+    margin-right: 0;
+  }
+
+  .recipe-video {
+    width: 100%;
+    margin: 1rem auto;
+    color: rgb(100, 95, 95);
+  }
+
+  .video-description {
+    padding: 10px;
+  }
+
+  .detail-icon {
+    margin-left: 0;
+  }
+
+  .cook-servings {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .foodorder{
+    background-color: rgb(57, 186, 10);
+    width: auto;
+    margin-left: 20px;
+  }
+}

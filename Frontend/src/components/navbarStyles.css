@@ -1,0 +1,13 @@
+.navbar-custom {
+  background-color: rgba(255, 255, 255, 0.847);
+  width: 95%;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px rgba(188, 186, 186, 0.951);
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-custom{
+    width: 90%;
+  }
+}

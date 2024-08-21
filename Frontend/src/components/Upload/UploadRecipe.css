@@ -1,0 +1,126 @@
+.parent-up {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.container-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 2rem;
+  border: 1px solid rgb(214, 211, 211);
+  border-radius: 5px;
+}
+
+.heading-up {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.pair-up {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-up {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid rgb(214, 211, 211);
+}
+
+.textarea-up {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid rgb(214, 211, 211);
+}
+
+.heading-2-up {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.nutrition-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.nutrition-pair {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.add-nutrition-btn {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-nutrition-btn:hover {
+  background-color: #ff8533;
+}
+
+.submit-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+}
+
+.submit-btn:hover {
+  background-color: #ff8533;
+  transform: translateY(-2px);
+}
+
+.submit-btn-text {
+  margin-right: 8px;
+}
+
+.submit-btn-icon {
+  background-color: #ffa366;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-btn-icon i {
+  font-size: 16px;
+}
